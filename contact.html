@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://kit.fontawesome.com/6488e6347e.js" crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Document</title>
+</head>
+
+<body>
+    <!-- #region Navbar-->
+    <div id="navbar"></div>
+    <script>
+        $("#navbar").load("common/navbar.html");
+    </script>
+    <!-- #endregion -->
+    <div class="contactform">
+        <h1 style="color:darkcyan;">stuur een bericht</h1>
+        <form>
+            <input type="text" name="name" placeholder="volle naam"><br />
+            <input type="text" name="mail" placeholder="jou email"><br />
+            <input type="text" name="onderwerp" placeholder="onderwerp"><br />
+            <textarea style="width:300px; height:150px; margin-top:10px;" name="message" placeholder="bericht">schrijf jou bericht hier in:
+            </textarea><br />
+            <a href=""><input type="submit" value="stuur"></a>
+        </form>
+    </div>
+
+    
+    <!-- #region Footer-->
+    <div id="footer"></div>
+    <script>
+        $("#footer").load("common/footer.html");
+    </script>
+    <!-- #endregion -->
+</body>
+
+</html>

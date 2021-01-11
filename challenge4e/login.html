@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/6488e6347e.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Document</title>
+</head>
+
+<body>
+    <div id="navbar">
+        <a href="home.html">HOME</a>
+        <a href="menu.php">MENU</a>
+        <a href="contact.html">CONTACT</a>
+        <a class="login" href="login.html">LOG IN</a>
+        <a id="shopping" href="shopping.php" class="fas fa-cart-plus"></a>
+    </div>
+
+<div id="mid">
+    <form action="login.php" method="post">
+        <label for="">username</label>
+        <input type="text" placeholder="name"  name="name" ><br>
+        <label for="">password</label>
+        <input type="password" placeholder="password"  name="password"><br>
+        <input type="submit" value="submit">
+    </form>
+</div>
+    <!-- <?php include_once("inc/connectien.inc.php") ?>
+    <?php include_once("inc/login2.inc.php") ?>
+    <?php
+    // print_r($new);
+    if ($_POST['name'] == $name && $password == hash('sha256', $_POST['password'])) {
+        echo "Hello $name";
+    } else {
+        include_once("inc/login.inc.php");
+    }
+    ?> -->
+    
+</body>
+
+</html>
