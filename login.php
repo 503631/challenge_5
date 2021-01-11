@@ -24,7 +24,7 @@
     include_once("inc/login2.inc.php");
     if ($_POST['name'] == $name && $password == hash('sha256', $_POST['password'])) {
       session_start();
-      $_SESSION['true'] == "true";
+      $_SESSION['true'] = "true";
         header("Location: admin/admin.php");
     } else {
         header("Location: login.html");
