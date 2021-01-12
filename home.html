@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <script src="https://kit.fontawesome.com/6488e6347e.js" crossorigin="anonymous"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <link rel="stylesheet" href="css/style.css" />
+  <title>Document</title>
+</head>
+
+<body>
+  <!-- #region Navbar-->
+  <div id="navbar"></div>
+  <script>
+    $("#navbar").load("common/navbar.html");
+  </script>
+  <!-- #endregion -->
+  <div>
+    
+
+    <video class="homepagephoto" controls>
+      <source src="instructie/instructie-e.mp4">
+    </video>
+    
+    <h2 class="h2">Welkow to our website.<br />
+      On our website you can see our menu</br>
+      and order of you found something to eat and/or drink.</h2>
+    <div class="vragencontainer">
+      <div class="vragen">
+        <h1>FAQ</h1>
+        <ol>
+          <li>How do I pay?</li>
+          <p>If you press the pay button je will be brought to the paying page.</p>
+        <li>What are the opening times?</li>
+          <p>From 9:00 until 16:00.</p>
+          <p style="color: red;">closed on weekends </p>
+        <li>How do I order?</li>
+          <p>If you go to the product page you can add products to your cart.</p>
+        <li>Hoe kan ik feedback geven?</li>
+          <p>On the contact page you can contact us and give feedback.</p>
+        <li>Do you deliver?</li>
+          <p>No only take away.</p>
+        </ol>
+      </div>
+    </div>
+  </div>
+  <!-- #region Footer-->
+  <div id="footer"></div>
+  <script>
+    $("#footer").load("common/footer.html");
+  </script>
+  <!-- #endregion -->
+</body>
+
+</html>
