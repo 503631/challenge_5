@@ -22,9 +22,9 @@ $_SESSION['true'] = false; ?>
     
     <img class="homepagephoto" src="images/kantine.jpg" />
     <video width="320" height="240" controls>
-  <source src="vido/video.mp4" type="video/mp4">
-  <source src="vido/video.ogg" type="video/ogg">
-  </video>
+       <source src="vido/video.mp4" type="video/mp4">
+       <source src="vido/video.ogg" type="video/ogg">
+    </video>
         <h2 class="h2">Welkow to our website.<br />
       In our website you can see to our menu</br>
       and order of you found some delichius.</h2>
