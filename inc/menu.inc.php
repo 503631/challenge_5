@@ -1,6 +1,6 @@
 <?php
 
-$sql = "SELECT * FROM tb_menu_nl";
+$sql = "SELECT * FROM tb_menu";
 $stmt = $pdo->prepare($sql);
 $stmt->execute();
 $result = $stmt->fetchAll(); // get result

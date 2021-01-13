@@ -5,7 +5,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <script src="https://kit.fontawesome.com/6488e6347e.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="css/style.css" />
-    <link rel="stylesheet" href="css/test.css" />
     <title>Document</title>
 </head>
 
@@ -25,18 +24,19 @@
     <!---end-->
     <div class="block">
     <form action="./shopping.php" method="post" >
-    <input hidden name="goed" >
-    <input hidden value="$lijst" name="lijst" >
-    <input hidden value="$totaal" name="totaal" >
-    <input type="text" name="leerlingnummer" placeholder="leerlingnummer"><br />
-    <input type="submit" value="aftekenen">
+       <input hidden name="goed" >
+       <input hidden value="$lijst" name="lijst" >
+       <input hidden value="$totaal" name="totaal" >
+       <input type="text" name="leerlingnummer" placeholder="student number"><br />
+       <input type="submit" value="pay">
     </form>
 
     <form action="./shopping.php" method="post" >
-    <input hidden name="prijs" value="0" >
-    <input hidden name="clier" >
-    <input type="submit" value="clier">
+       <input hidden name="prijs" value="0" >
+       <input hidden name="clier" >
+       <input type="submit" value="clier">
     </form>
+
         <?php
         require_once('connection.php');
         if(!isset($_SESSION['lijst'])){

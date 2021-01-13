@@ -193,3 +193,10 @@ display: inline-block;
     position: relative;
     margin: auto;
   }
+.block{
+    background-color: aqua;
+    width: 1000px;
+    height: 500px;
+    margin: auto;
+}
+  

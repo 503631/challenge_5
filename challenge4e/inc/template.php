@@ -27,7 +27,7 @@ $menu = <<<HTML
     </div>
     <img src="$img">
     <input type="number" min="0" name="aantal">
-    <input type="submit" value="Kopen">
+    <input type="submit" value="buy">
 </div>
 </form>
 
