@@ -3,7 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://kit.fontawesome.com/6488e6347e.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="css/faq.css" />
+    <link rel="stylesheet" href="css/style.css" />
     <title>FAQ</title>
 </head>
 <body>
@@ -18,25 +21,25 @@
        <p class="heading">FAQs</p>
        <div class="faqs">
           <details>
-               <summary>Hoe moet ik betalen?</summary>
-               <p class="text">- Als je boven op de betaalknop klikt zal je naar de betaal pagina gebracht worden.</p>
+               <summary>How do I pay?</summary>
+               <p class="text">- If you press the pay button you will be brought to the paying page.</p>
           </details>
           <details>
-               <summary>Wat zijn de openingstijden?</summary>
-               <p class="text">- maandag-vrijdag van 9:00 tot 16:00 uur</p>
-               <p class="text">- gesloten in het weekend</p>
+               <summary>What are the opening times?</summary>
+               <p class="text">- Monday-Friday from 9:00 until 16:00 uur</p>
+               <p class="text" style="color:red;">- Closed on weekends</p>
           </details>
           <details>
-               <summary>Hoe moet ik bestellen?</summary>
-               <p class="text">- Als je op de producten pagina gaat kun jij bij eld product op bestellen klikken en dan komt die in je winkelmandje.</p>
+               <summary>How do I order?</summary>
+               <p class="text">- If you go to the product page you can add products to your cart.</p>
           </details>
           <details>
-               <summary>Hoe kan ik feedback geven?</summary>
-               <p class="text">- Bij de contact pagina. Jij kunt contact opnemen met ons en feedback geven.</p> 
+               <summary>How can I give an feedback?</summary>
+               <p class="text">- On the contact page you can contact us and give feedback.</p> 
           </details>
           <details>
-               <summary>Word er ook bezorgd?</summary>
-               <p class="text">- Nee, jij kan alleen afhalen.</p> 
+               <summary>Do you deliver?</summary>
+               <p class="text">- No, only take away.</p> 
           </details>
        </div>
     </div>

@@ -19,37 +19,17 @@ $_SESSION['true'] = false; ?>
   </script>
   <!-- #endregion -->
   <div>
-    
     <img class="homepagephoto" src="images/kantine.jpg" />
     <div class="video">
       <video width="320" height="240" controls>
-        <source src="video/instructie-e.mp4" type="video/mp4">
-        <source src="video/instructie-e.ogg" type="video/ogg">
+        <source src="instructie/instructie1.mp4" type="video/mp4">
+        <source src="instructie/instructie1.ogg" type="video/ogg">
        </video>
+       <h2 class="h2">Welkom op onze website.<br>
+      In onze website jullie kunnen naar ons menu kijken<br>
+      en bestellen als jullie iets lekkers vinden.</h2>
     </div>
-        <h2 class="h2">Welkow to our website.<br />
-      In our website you can see to our menu</br>
-      and order of you found some delichius.</h2>
-    <div class="vragencontainer">
-      <div class="vragen">
-        <h1>Meest gesteld vragen</h1>
-        <ol>
-          <li>Hoe moet ik betalen?</li>
-          <p>- Als je boven op de betaalknop klikt zal je naar de betaal pagina gebracht worden.</p>
-          <li>Wat zijn de openingstijden?</li>
-          <p>- maandag-vrijdag<br /> 9:00 tot 16:00 uur<br /> </p>
-          <p style="color:red;"> - gesloten in het weekend </p>
-          <li>Hoe moet ik bestellen?</li>
-          <p>- Als je op de producten pagina gaat kun jij bij eld product op bestellen klikken en dan komt die in je
-            winkelmandje.</p>
-          <li>Hoe kan ik feedback geven?</li>
-          <p>- Bij de contact pagina. Jij kunt contact opnemen met ons en feedback geven.</p>
-          <li>Word er ook bezorgd?</li>
-          <p>- Nee, jij kan alleen afhalen.</p>
-        </ol>
-      </div>
-    </div>
-  </div>
+
   <!-- #region Footer-->
   <div id="footer"></div>
   <script>

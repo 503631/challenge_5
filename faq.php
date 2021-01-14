@@ -3,6 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://kit.fontawesome.com/6488e6347e.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="css/faq.css" />
     <link rel="stylesheet" href="css/style.css" />
     <title>FAQ</title>
@@ -25,7 +27,7 @@
           <details>
                <summary>Wat zijn de openingstijden?</summary>
                <p class="text">- maandag-vrijdag van 9:00 tot 16:00 uur</p>
-               <p class="text">- gesloten in het weekend</p>
+               <p class="text" style="color:red;">- gesloten in het weekend</p>
           </details>
           <details>
                <summary>Hoe moet ik bestellen?</summary>
