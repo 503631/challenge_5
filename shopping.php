@@ -12,6 +12,8 @@
         <a href="home.html">HOME</a>
         <a href="menu.php">MENU</a>
         <a href="contact.html">CONTACT</a>
+        <a href="faq.php">FAQ</a>
+        <a href="../index.php"><img id="vlag" src="./images/nederland.jpeg" alt="nederland.jpeg"></a>
         <a class="login" href="login.html">LOG IN</a>
         <a id="shopping" href="shopping.php" class="fas fa-cart-plus"></a>
     </div>
