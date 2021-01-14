@@ -18,7 +18,6 @@ $_SESSION['true'] = false; ?>
     $("#navbar").load("common/navbar.html");
   </script>
   <!-- #endregion -->
-  <div>
     <img class="homepagephoto" src="images/kantine.jpg" />
     <div class="video">
       <video width="320" height="240" controls>
@@ -27,7 +26,7 @@ $_SESSION['true'] = false; ?>
        </video>
        <div class="welkom">
          <h2 >Welkom<h2>
-          <p> op onze website.<br>
+          <p> Welkom op onze website.<br>
           In onze website jullie kunnen naar ons menu kijken<br>
           en bestellen als jullie iets lekkers vinden.</p>
        </div>
