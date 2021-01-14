@@ -25,9 +25,12 @@ $_SESSION['true'] = false; ?>
         <source src="instructie/instructie1.mp4" type="video/mp4">
         <source src="instructie/instructie1.ogg" type="video/ogg">
        </video>
-       <h2 class="h2">Welkom op onze website.<br>
-      In onze website jullie kunnen naar ons menu kijken<br>
-      en bestellen als jullie iets lekkers vinden.</h2>
+       <div class="welkom">
+         <h2 >Welkom<h2>
+          <p> op onze website.<br>
+          In onze website jullie kunnen naar ons menu kijken<br>
+          en bestellen als jullie iets lekkers vinden.</p>
+       </div>
     </div>
 
   <!-- #region Footer-->
