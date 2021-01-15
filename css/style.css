@@ -87,12 +87,23 @@ img {
     height: 30px;
     margin-right: 10px;
     margin-top: 10px;
-    box-shadow: 0px 0px 5px;
 }
 
 .button:hover {
-    background-color: white;
+    background-color: lightgray;
 }
+
+.aftekenen{
+    background-color:lightgray;
+    border:none;
+    border-radius:7px;
+    width:80px;
+
+}
+.aftekenen:hover{
+    background-color:white;
+}
+
 
 /* Contact */
 .contactform {

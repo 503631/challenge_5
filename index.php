@@ -20,10 +20,13 @@ $_SESSION['true'] = false; ?>
   <!-- #endregion -->
     <img class="homepagephoto" src="images/kantine.jpg" />
     <div class="video">
+    
       <video width="320" height="240" controls>
+      
         <source src="instructie/instructie1.mp4" type="video/mp4">
         <source src="instructie/instructie1.ogg" type="video/ogg">
        </video>
+       instructie hoe jij kunt bestellen
        <div class="welkom">
          <h2>Welkom</h2>
          <h3>

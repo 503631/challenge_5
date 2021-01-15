@@ -30,7 +30,7 @@
        <input hidden value="$lijst" name="lijst" >
        <input hidden value="$totaal" name="totaal" >
        <input type="text" name="leerlingnummer" placeholder="student number"><br />
-       <input type="submit" value="pay">
+       <input class="pay" type="submit" value="pay">
     </form>
 
     <form action="./shopping.php" method="post" >

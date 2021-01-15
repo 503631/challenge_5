@@ -27,7 +27,7 @@
             <input hidden value="$lijst" name="lijst">
             <input hidden value="$totaal" name="totaal">
             <input type="text" name="leerlingnummer" placeholder="leerlingnummer"><br />
-            <input type="submit" value="aftekenen">
+            <input class="aftekenen" type="submit" value="aftekenen">
         </form>
         <form action="./shopping.php" method="post">
             <input hidden name="prijs" value="0">
