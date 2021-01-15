@@ -9,7 +9,7 @@
 </head>
 <body>
     <div id="navbar">
-        <a href="home.html">HOME</a>
+        <a href="index.php">HOME</a>
         <a href="menu.php">MENU</a>
         <a href="contact.html">CONTACT</a>
         <a href="faq.php">FAQ</a>
