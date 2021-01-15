@@ -36,7 +36,7 @@
     <form action="./shopping.php" method="post" >
        <input hidden name="prijs" value="0" >
        <input hidden name="clier" >
-       <input type="submit" value="clier">
+       <input type="submit" value="clear">
     </form>
 
         <?php

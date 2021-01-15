@@ -27,12 +27,12 @@
             <input hidden value="$lijst" name="lijst">
             <input hidden value="$totaal" name="totaal">
             <input type="text" name="leerlingnummer" placeholder="leerlingnummer"><br />
-            <input class="aftekenen" type="submit" value="aftekenen">
+            <input class="aftekenen" type="submit" value="afrekenen">
         </form>
         <form action="./shopping.php" method="post">
             <input hidden name="prijs" value="0">
             <input hidden name="clier">
-            <input type="submit" value="clier">
+            <input type="submit" value="leegmaken">
         </form>
         <?php
         require_once('connection.php');
