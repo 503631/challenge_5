@@ -20,8 +20,8 @@
     <img class="homepagephoto" src="images/kantine.jpg" />
     <div class="video">
       <video width="320" height="240" controls>
-        <source src="video/instructie-e.mp4" type="video/mp4">
-        <source src="video/instructie-e.ogg" type="video/ogg">
+        <source src="video/ienstructi.mp4" type="video/mp4">
+        <source src="video/einstructi.ogg" type="video/ogg">
        </video>
 
        <div class="welkom">
