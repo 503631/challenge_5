@@ -20,11 +20,11 @@
     <img class="homepagephoto" src="images/kantine.jpg" />
     <div class="video">
       <video width="320" height="240" controls>
-        <source src="video/ienstructi.mp4" type="video/mp4">
+        <source src="video/einstructi.mp4" type="video/mp4">
         <source src="video/einstructi.ogg" type="video/ogg">
        </video>
 
-       <div class="welkom">
+       <div class="Welcome">
         <h2>Welkow</h2>
         <h3>
          <p>Welcome to our website.<br />
